@@ -1,0 +1,16 @@
+.btn {
+  border: none;
+  border-radius: 3rem;
+}
+
+.btnImage {
+  width: 2rem;
+  height: 2rem;
+
+}
+
+footer {
+  overflow: hidden;
+  position: relative;
+  top: 100%;
+}
