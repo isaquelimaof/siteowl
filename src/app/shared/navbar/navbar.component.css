@@ -1,6 +1,7 @@
-
 #navbarMenu {
   margin-left: 2rem;
+  border: none;
+  background: transparent;
 }
 
 .navbar-toggler {
@@ -21,5 +22,16 @@
   flex-direction: row;
   color: white;
   align-items: center;
-  margin-left: 15rem;
+  margin-left: 1rem;
+}
+
+.logoText img {
+
+
+
+}
+
+.logoText h1 {
+  font-size: calc(20px + (24 - 12) * ((40vw - 150px) / (800 - 400)));
+
 }
