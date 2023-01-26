@@ -9,6 +9,9 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatSidenavModule} from '@angular/material/sidenav';
+
 
 @NgModule({
   declarations: [
@@ -18,11 +21,14 @@ import { FooterComponent } from './shared/footer/footer.component';
     MenuComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,37 +1,36 @@
-#navbarMenu {
-  margin-left: 2rem;
-  border: none;
-  background: transparent;
-}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    border: none;
+    background: rgba(10, 33, 107, 0.664);
+  }
 
-.navbar-toggler {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 40px;
-  height: 35px;
-  box-shadow: black 0 0 5px;
-}
+  .form-inline {
+    
+  }
 
-.imgLogo {
-  width: 5%;
-}
-
-.logoText {
-  display: flex;
-  flex-direction: row;
-  color: white;
-  align-items: center;
-  margin-left: 1rem;
-}
-
-.logoText img {
-
-
-
-}
-
-.logoText h1 {
-  font-size: calc(20px + (24 - 12) * ((40vw - 150px) / (800 - 400)));
-
-}
+  
+  .imgLogo {
+    width: 5%;
+  }
+  
+  .logoText {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    margin-left: 1rem;
+  }
+  
+  .logoText img {
+  
+  
+  
+  }
+  
+  .logoText h1 {
+    font-size: calc(20px + (24 - 12) * ((40vw - 150px) / (800 - 400)));
+  
+  }
