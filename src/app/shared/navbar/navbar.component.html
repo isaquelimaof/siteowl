@@ -1,15 +1,13 @@
-<nav class="navbar sticky-top navbar-dark bg-dark ">
-  <div class="logoText">
-    <img
-      src="assets/img/logo-sem-fundo-02.png"
-      width="100"
-      height="70"
-      class="d-inline-block align-top"
-      alt=""
-    />
-    <h1>Owl Monitoramento</h1>
-  </div>
-</nav>
+<div class="topnav" id="myTopnav">
+  <a routerLink="home" class="active">Home</a>
+  <a>News</a>
+  <a routerLink="contact">Contact</a>
+  <a routerLink="about">About</a>
+  <a id="icon" (click)="myFunction()">
+    <mat-icon class="menuIcon">menu</mat-icon>
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
 <!--
 <div class="header">
@@ -38,7 +36,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    position: -webkit-sticky; 
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
   }
@@ -57,7 +55,7 @@
         <h5 class="text-white">O melhor para o seu estabelecimento</h5>
         <span class="text-muted">Monitoramento 24h</span>
       </div>
-    
+
 
        <form class="form-inline my-2 my-lg-0">
     <input
@@ -70,5 +68,5 @@
       Pesquisar
     </button>
   </form>
-    
+
     -->

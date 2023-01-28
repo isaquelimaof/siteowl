@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-//declare var jQuery: any;
-
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
@@ -9,18 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() {}
+  constructor() { }
 
   ngOnInit(): void {
- 
-   
-    //jQuery("#myselector").style="display: none;";
-   
+
   }
-  
 
-  
+  myFunction() {
+    const x = document.getElementById("myTopnav")
+    if (x?.className === "topnav") {
+      x.classList.toggle("responsive")
+    } else {
+      x?.classList.toggle("responsive")
+    }
 
+  }
 }
+
 
 
